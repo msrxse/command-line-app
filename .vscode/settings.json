@@ -73,6 +73,7 @@
   "workbench.colorTheme": "Noctis Obscuro",
   "workbench.editor.labelFormat": "medium",
   // "workbench.editor.showTabs": "none",
+  // Theme here
   "workbench.iconTheme": "vscode-icons",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "newUntitledFile",

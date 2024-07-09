@@ -1,14 +1,14 @@
-# React + TypeScript + Vite
+# Command line app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bear-bones template
 
 To start development server:
 
 ```
-pnpm run dev
+npm run dev
 ```
 
-Next, open your browser and visit http://localhost:5173/. The default React project will be running on port 5173.
+Next, open your browser and visit http://localhost:4000/. The default React project will be running on port 4000.
 
 ### Note:
 
@@ -17,14 +17,14 @@ Next, open your browser and visit http://localhost:5173/. The default React proj
 ## Tests
 
 ```
-pnpm test:watch
+npm test:watch
 
 ```
 
 or
 
 ```
-pnpm test:watch <path-to-file>
+npm run test:watch <path-to-file>
 
 ```
 

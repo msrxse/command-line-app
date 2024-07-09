@@ -1,18 +1,15 @@
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
-
-import Articles from '@/scenes/Articles/Articles'
+import useHelloWorld from '@/hooks/useHelloWorld'
 
 import styles from './App.module.css'
 
-const queryClient = new QueryClient()
-
 export const App = () => {
+  const data = useHelloWorld()
+  console.log(data)
+
   return (
-    <QueryClientProvider client={queryClient}>
-      <main data-testid="app-id" className={styles.main}>
-        <Articles />
-      </main>
-    </QueryClientProvider>
+    <main data-testid="app-id" className={styles.main}>
+      <p>App</p>
+    </main>
   )
 }
 
